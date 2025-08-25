@@ -17,7 +17,7 @@ jobs:
         - name: Set Up Python # Sets up our python env
           uses: actions/setup-python@v2
           with:
-            python-version: '3.13'
+            python-version: '3.12'
 
         - name: Install dependencies # Installs any packages
           run: |
